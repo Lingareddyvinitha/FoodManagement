@@ -12,6 +12,13 @@ const InputFiled = styled.input`
       backgroundColor: white
    }}
 `
+const InputFiledWrapper = styled.div`
+   ${tw``}
+`
 
-export { InputFiled }
+const ErrorMessage = styled.div`
+   ${tw``}
+`
+
+export { InputFiled, InputFiledWrapper, ErrorMessage }
 //width: "320px"

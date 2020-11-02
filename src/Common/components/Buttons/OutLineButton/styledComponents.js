@@ -1,13 +1,10 @@
 import styled from '@emotion/styled'
 import tw from 'tailwind.macro'
-import { BaseButton } from '../BaseButton'
+import BaseButton from '../BaseButton'
+import { Button } from '../../Button/Button'
 
-const ButtonWrapper = styled.div `${tw ``}`
-const Button = styled(BaseButton)
+const Button = styled(BaseButton)`
+   background-color: white;
+   color: black;
 `
-backgroundColor:white,
-color:black
-`
-
-
-export { Button, ButtonWrapper }
+export { Button }
